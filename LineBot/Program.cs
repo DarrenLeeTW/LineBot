@@ -14,10 +14,10 @@ namespace LineBot
         public static void Main(string[] args)
         {
             //CreateHostBuilder(args).Build().Run();
-            //¶Ç°e¹ï¶H
+            //å‚³é€å°è±¡
             var toUserID = "Uc8472802ca87e59285e5ed47786dfb09";
             //Channel Access Token
-            var token = @"Fxf60h6Q82EeS6GWGpWiGYs8i0k+T4FIclx8M/jHju9MoEFCKWIwcif0fJHEBDE1/SvcP/Zu20ak3/mALuBREBmRHzv5Rl/K+4Mgf6OWNf8v9xmmJkYDhIYEAAJS/fJ4ycUq76kML3GBbW3TUsQzOgdB04t89/1O/w1cDnyilFU=";
+            var token = "";
             //create bot instance
             isRock.LineBot.Bot bot = new isRock.LineBot.Bot(token);
             //send message
@@ -27,11 +27,11 @@ namespace LineBot
 
             //LineBot Helper
             LineBot.LineBotHelper LineBotHelper = new LineBot.LineBotHelper(
-                    "§AªºChannel ID", "§AªºChannel Secret", "§AªºMID");
+                    "ä½ çš„Channel ID", "ä½ çš„Channel Secret", "ä½ çš„MID");
 
-            //µo°e°T®§
+            //ç™¼é€è¨Šæ¯
             var ret = LineBotHelper.SendMessage(
-                new List<string>() { µo°e¹ï¶HID }, µo°e°T®§);
+                new List<string>() { ç™¼é€å°è±¡ID }, ç™¼é€è¨Šæ¯);
 
         }
 
